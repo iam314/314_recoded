@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'sinkin_sans300_light';
+    src: url(../../../sinkinsans_300light_macroman/SinkinSans-300Light-webfont.eot);
+    src: url(../../../sinkinsans_300light_macroman/SinkinSans-300Light-webfont.eot?#iefix) format('embedded-opentype'),
+         url(../../../sinkinsans_300light_macroman/SinkinSans-300Light-webfont.woff) format('woff'),
+         url(../../../sinkinsans_300light_macroman/SinkinSans-300Light-webfont.ttf) format('truetype'),
+         url(../../../sinkinsans_300light_macroman/SinkinSans-300Light-webfont.svg#sinkin_sans300_light) format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
