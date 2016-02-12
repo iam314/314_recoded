@@ -115,7 +115,7 @@ nav li:nth-child(1) {
   margin: 0 auto;
 }
 
-.footerlogo:hover {
+.footerlogo:hover :focus {
 	background-image: url(img/logo_hover.svg);
 	background-repeat: no-repeat;
 	height: 2.5em;
@@ -254,12 +254,6 @@ h2 {
 	letter-spacing:  0.05em;
 	text-align: center;
 	text-transform: uppercase;
-}
-
-
-h3 {
-	font-family: 'sinkin_sans300_light', 'sans-serif';
-	text-transform: none;
 }
 
 h4 {
