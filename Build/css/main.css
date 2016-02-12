@@ -463,7 +463,7 @@ body {
   color: white;
   text-shadow: none; }
 
-.navigation {
+nav {
   margin-top: 4em;
   margin-bottom: 2.5em; }
 
@@ -484,10 +484,10 @@ body {
   height: 2.7em;
   width: 27.7em; }
 
-.navigation ul li {
+nav ul li {
   display: inline; }
 
-.navigation ul li a {
+nav ul li a {
   font-family: 'sinkin_sans300_light', 'sans-serif';
   font-weight: 300;
   font-size: 1.4em;
@@ -496,19 +496,19 @@ body {
   letter-spacing: 0.3em;
   text-decoration: none; }
 
-.navigation ul li a:hover {
+nav ul li a:hover {
   color: #FF1D25;
   padding-top: 0.2em;
   border-top: 0.5em solid;
   text-decoration: none; }
 
-.navigation li.current a {
+nav li.current a {
   color: #000000;
   padding-top: 0.2em;
   border-top: 0.5em solid;
   text-decoration: none; }
 
-.navigation li:nth-child(1) {
+nav li:nth-child(1) {
   margin-right: 2.5em; }
 
 .footerlogo {
@@ -728,26 +728,26 @@ p {
     text-align: center;
     margin-top: 3em; }
 
-  .navigation {
-    margin-bottom: 0.5em; }
+  nav {
+    margin-bottom: 0.4em; }
 
-  .navigation ul li a {
+  nav ul li a {
     font-size: 1.4em;
     letter-spacing: 0.3em; }
 
-  .navigation ul li a:hover {
+  nav ul li a:hover {
     padding-bottom: 0.5em;
     border-bottom: 0.5em solid;
     padding-top: 0m;
     border-top: 0; }
 
-  .navigation li.current a {
+  nav li.current a {
     padding-bottom: 0.5em;
     border-bottom: 0.5em solid;
     padding-top: 0m;
     border-top: 0; }
 
-  .navigation li:nth-child(1) {
+  nav li:nth-child(1) {
     margin-right: 2.3em; }
 
   .logo {
@@ -756,8 +756,8 @@ p {
     margin-left: auto;
     margin-right: auto; } }
 @media screen and (max-width: 699px) {
-  .navigation {
-    margin-bottom: 1.3em; } }
+  nav {
+    margin-bottom: 0.4em; } }
 @media screen and (max-width: 660px) {
   .logo {
     height: 2.5em;
@@ -805,22 +805,22 @@ p {
     padding-left: 0;
     margin-top: 3em; }
 
-  .navigation ul li a {
+  nav ul li a {
     font-family: 'sinkin_sans700_bold', 'sans-serif';
     font-size: 1.2em;
     letter-spacing: 0.1em; }
 
-  .navigation ul li a:hover {
+  nav ul li a:hover {
     padding-bottom: 0.6em;
     border-bottom: 0.5em solid;
     padding-top: 0m;
     border-top: 0; }
 
-  .navigation li.current a {
+  nav li.current a {
     padding-bottom: 0.6em;
     border-bottom: 0.5em solid #FF1D25;
     padding-top: 0m;
     border-top: 0; }
 
-  .navigation li:nth-child(1) {
+  nav li:nth-child(1) {
     margin-right: 1.3em; } }
