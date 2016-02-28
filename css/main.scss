@@ -335,11 +335,6 @@ p {
 	background-color: lighten( $color-gray, 15% );
 }
 
-.offset-0 {
-  padding-left: 0;
-  padding-right: 0;
-}
-
 @media screen and (max-width: 990px) {
 	.info {
 		margin-top: 6em;
