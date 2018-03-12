@@ -425,7 +425,12 @@ ul.clientslist {
 .img-responsive {
   display: block;
   max-width: 100%;
-  height: auto; }
+  height: auto;
+}
+.img-cover {
+  width: 100%;
+  height: auto;
+}
 
 .center-block {
   display: block;
@@ -513,6 +518,24 @@ ul.clientslist {
 		margin-left: auto;
 		margin-right: auto;
 	}
+  h1 {
+    font-size: 2.1em;
+  }
+  h2, h4 {
+    font-size: 1.8em;
+  }
+  .clientslist {
+    font-size: .8em;
+  }
+  p {
+    font-size: 1.4em;
+  }
+  .details, .gray {
+    font-size: 1em;
+  }
+  // .links {
+  //   font-size: .8em;
+  // }
 }
 
 @media screen and (max-width: 699px) {
