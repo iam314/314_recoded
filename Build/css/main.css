@@ -622,22 +622,23 @@ select {
   -webkit-appearance: none;
   appearance: none;
   background-color: #ffffff;
-  color: #a9a9a9; }
+  color: #1a1a1a; }
 
-.submit {
-  font-family: 'HKGrotesk-Bold', 'sans-serif';
-  background-color: #FF1D25;
-  text-transform: uppercase;
-  cursor: pointer;
-  display: block;
-  font-size: 16px;
-  color: #ffffff;
-  border: 0;
-  border-radius: 0 !important;
-  padding: 12px 0;
-  margin: 0;
-  text-rendering: optimizeLegibility;
-  transition: all 100ms ease-in-out; }
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: #1a1a1a; }
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #1a1a1a; }
+
+:-ms-input-placeholder {
+  /* IE 10+ */
+  color: #1a1a1a; }
+
+:-moz-placeholder {
+  /* Firefox 18- */
+  color: #1a1a1a; }
 
 .name, .mail {
   width: 48.3%;
@@ -664,7 +665,7 @@ select {
   width: 146px; }
 
 .submit:hover {
-  background-color: #1a1a1a; }
+  background-color: #b60006; }
 
 .btnfix {
   width: 240px;
@@ -783,8 +784,48 @@ ul.clientslist {
   text-decoration: none; }
 
 .bckgound {
-  background-color: #f2f2f2; }
+  background-color: #fafafa; }
 
+.bckgoundc {
+  background-color: #1a1a1a; }
+
+.sectionbacground {
+  animation: colorchange 25s infinite;
+  /* animation-name followed by duration in seconds*/
+  /* you could also use milliseconds (ms) or something like 2.5s */
+  -webkit-animation: colorchange 25s infinite;
+  /* Chrome and Safari */ }
+
+@keyframes colorchange {
+  0% {
+    background: #e0282a; }
+  17% {
+    background: #eb6726; }
+  32% {
+    background: #f7b618; }
+  47% {
+    background: #009a67; }
+  52% {
+    background: #72c8ef; }
+  77% {
+    background: #293c90; }
+  100% {
+    background: #e0282a; } }
+@-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */ {
+  0% {
+    background: #e0282a; }
+  17% {
+    background: #eb6726; }
+  32% {
+    background: #f7b618; }
+  47% {
+    background: #009a67; }
+  52% {
+    background: #72c8ef; }
+  77% {
+    background: #293c90; }
+  100% {
+    background: #e0282a; } }
 @media screen and (max-width: 760px) {
   .topnav {
     float: none !important;
